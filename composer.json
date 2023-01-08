@@ -1,0 +1,21 @@
+{
+    "name": "george/php-http-client",
+    "description": "php-http-client is a php library for sending http request",
+    "type": "library",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "julius george",
+            "email": "julius.business12@gmail.com"
+        }
+    ],
+    "minimum-stability": "alpha",
+    "require": {
+        "php" : ">=7.0"
+    } , 
+    "autoload": {
+        "psr-4": {
+            "src\\": "src/" 
+              } 
+    }
+}
